@@ -1,0 +1,21 @@
+{
+    "name": "asd/test2",
+    "description": "test2",
+    "authors": [
+        {
+            "name": "xing.guo",
+            "email": "742728805@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload" : {
+        "psr-4" : {
+            "App\\" : "app/",
+            "Tests\\" : "vendor/Tests/src/"
+        },
+        "files": [
+            "vendor/Tests/src/Support/helpers.php"
+        ]
+    }
+}
